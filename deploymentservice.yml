@@ -1,8 +1,7 @@
-apiVersion: webapps/v1
+apiVersion: apps/v1
 kind: Deployment # Kubernetes resource kind we are creating
 metadata:
   name: ekart-deployment
-  namespace: webapps
 spec:
   selector:
     matchLabels:

@@ -1,5 +1,5 @@
 apiVersion: webapps/v1
-kind: Service # Kubernetes resource kind we are creating
+kind: Deployment # Kubernetes resource kind we are creating
 metadata:
   name: ekart-deployment
   namespace: webapps
